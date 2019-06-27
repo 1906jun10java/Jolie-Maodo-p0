@@ -8,7 +8,7 @@ public class Cars {
 	private int year;
 	private float price;
 	private int mileage;
-	
+	private String lot;
 	
 	
 	
@@ -50,5 +50,13 @@ public class Cars {
 	public void setPrice(float price) {
 		this.price = price;
 	}
+	
+	public String getLot() {
+		return lot;
+	}
+	public void setLot(String lot) {
+		this.lot = lot;
+	}
+	
 	
 }
